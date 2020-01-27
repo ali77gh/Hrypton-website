@@ -15,7 +15,7 @@
     &::before{
         position: absolute;
         content: "";
-        background:#5DB2FF;
+        background:#00CF48;
         width: 100%;
         height: 100%;
         left: 0;
@@ -25,13 +25,13 @@
     }
     .section_title{
         h3{
-            color: #fff;
+            color: #313131;
             margin-bottom: 0;
             padding-bottom: 0;
         }
     }
     p{
-        color: #fff;
+        color: #313131;
         font-size: 20px;
         line-height: 34px;
         font-weight: 400;
@@ -75,7 +75,7 @@ display: flex;
         span{
             font-size: 14px;
             font-weight: 400;
-            color: #fff;
+            color: #313131;
             text-transform: uppercase;
         }
     }
@@ -95,7 +95,7 @@ display: flex;
             right: 0;
         }
         &:hover{
-            background:#0181F5;
+            background:#006D23;
         }
     }
 }

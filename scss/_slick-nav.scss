@@ -11,7 +11,7 @@
 }
 .slicknav_menu{
     .slicknav_nav {
-        background: #fff;
+        background: #313131;
         float: right;
         margin-top: 0;
         padding: 0;
@@ -27,10 +27,10 @@
         a{
             &:hover{
                 background: transparent;
-                color: #5DB2FF;
+                color: #00CF48;
             }
             &.active{
-                color: #5DB2FF;
+                color: #00CF48;
             }
             i{
                 @media #{$mobile_device} {

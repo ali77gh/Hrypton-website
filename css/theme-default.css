@@ -100,21 +100,21 @@ label {
 /* line 74, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
 *::-moz-selection {
   background: #444;
-  color: #fff;
+  color: #313131;
   text-shadow: none;
 }
 
 /* line 79, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
 ::-moz-selection {
   background: #444;
-  color: #fff;
+  color: #313131;
   text-shadow: none;
 }
 
 /* line 84, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
 ::selection {
   background: #444;
-  color: #fff;
+  color: #313131;
   text-shadow: none;
 }
 
@@ -163,7 +163,7 @@ h3 {
 
 /* line 122, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
 .white-bg {
-  background: #ffffff;
+  background: #313131;
 }
 
 /* line 125, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
@@ -215,7 +215,7 @@ h3 {
 .overlay2::before {
   position: absolute;
   content: "";
-  background-color: #2C2C2C;
+  background-color: #FFF;
   top: 0;
   left: 0;
   width: 100%;
@@ -237,7 +237,7 @@ h3 {
   height: 100%;
   left: 0;
   top: 0;
-  background: #2C2C2C;
+  background: #FFF;
   opacity: .6;
   content: '';
   z-index: -1;
@@ -253,14 +253,14 @@ h3 {
 .bradcam_overlay::before {
   position: absolute;
   content: "";
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#5db2ff+0,7db9e8+100&1+24,0+96 */
-  background: -moz-linear-gradient(left, #5db2ff 0%, #65b4f9 24%, rgba(124, 185, 233, 0) 96%, rgba(125, 185, 232, 0) 100%);
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#00CF48+0,7db9e8+100&1+24,0+96 */
+  background: -moz-linear-gradient(left, #00CF48 0%, #65b4f9 24%, rgba(124, 185, 233, 0) 96%, rgba(125, 185, 232, 0) 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #5db2ff 0%, #65b4f9 24%, rgba(124, 185, 233, 0) 96%, rgba(125, 185, 232, 0) 100%);
+  background: -webkit-linear-gradient(left, #00CF48 0%, #65b4f9 24%, rgba(124, 185, 233, 0) 96%, rgba(125, 185, 232, 0) 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #5db2ff 0%, #65b4f9 24%, rgba(124, 185, 233, 0) 96%, rgba(125, 185, 232, 0) 100%);
+  background: linear-gradient(to right, #00CF48 0%, #65b4f9 24%, rgba(124, 185, 233, 0) 96%, rgba(125, 185, 232, 0) 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5db2ff', endColorstr='#007db9e8',GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00CF48', endColorstr='#007db9e8',GradientType=1 );
   /* IE6-9 */
   top: 0;
   left: 0;
@@ -297,7 +297,7 @@ h3 {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   width: 50px;
-  color: #fff;
+  color: #313131;
   background-color: transparent;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -335,7 +335,7 @@ h3 {
 
 /* line 272, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
 .owl-carousel:hover .owl-nav div:hover {
-  color: #fff;
+  color: #313131;
   background: #28AE61;
   border: 1px solid transparent;
 }

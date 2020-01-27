@@ -16,16 +16,16 @@
     .main-header-area{
         // padding: 18px 0;
         padding: 20px 200px;
-        background: #fff;
+        background: #313131;
         background: transparent;
         @media #{$mobile_device} {
             padding: 10px 0px;
-            background: #2C2C2C;
+            background: #FFF;
 
         }
         @media #{$tablet_device} {
             padding: 10px 15px;
-            background: #2C2C2C;
+            background: #FFF;
         }
         @media #{$mid_device} {
             padding: 25px 0px;
@@ -107,7 +107,7 @@
                         margin: 0 10px;
                         font-size: 15px;
                         &:hover{
-                            color: #fff;
+                            color: #313131;
                         }
                        }
                    }
@@ -122,19 +122,19 @@
                    margin-left: 0;
                }
                a{
-                background: #42B3FA;
+                background: #00CF48;
                 padding: 12px 26px;
                 font-size: 14px;
                 font-weight: 500;
                 border: 1px solid transparent;
-                color: #fff;
+                color: #313131;
                 @include border-radius(4px);
                 @media #{$mid_device} {
                     padding: 12px 20px;
                 }
                 &:hover{
                     background: #4BA8FD;
-                    color: #fff;
+                    color: #313131;
                     border: 1px solid #4BA8FD;
                 }
                }
@@ -155,7 +155,7 @@
                     //     margin-right: 15px;
                     // }
                     a{
-                        color: #fff;
+                        color: #313131;
                         font-size: 15px;
                         text-transform: capitalize;
                         font-weight: 400;
@@ -185,7 +185,7 @@
                         // &::before {
                         //     position: absolute;
                         //     content: "";
-                        //     background: #fff;
+                        //     background: #313131;
                         //     width: 100%;
                         //     height: 2px;
                         //     bottom: 0;
@@ -212,7 +212,7 @@
                         position: absolute;
                         left: 0;
                         top: 160%;
-                        background: #fff;
+                        background: #313131;
                         width: 200px;
                         z-index: 2;
                         box-shadow: 0 0  10px rgba(0,0,0,.02);
@@ -266,7 +266,7 @@
             box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
             // padding: 10px 150px;
             background: rgba(255, 255, 255,.96);
-            // background: #2C2C2C;
+            // background: #FFF;
             background: #000;
             // padding-bottom: 0;
             @media #{$mobile_device} {
@@ -303,7 +303,7 @@
           }
           a{
             font-size: 15px;
-            color: #fff;
+            color: #313131;
             margin-right: 12px;
             &:hover{
                 color: #28AE60;
@@ -320,7 +320,7 @@
                   display: inline-block;
                   a{
                     font-size: 13px;
-                    color: #fff;
+                    color: #313131;
                     margin-left: 50px; 
                     @media #{$mobile_device} 
                     {

@@ -73,17 +73,17 @@ label {
 }
 *::-moz-selection {
 	background: #444;
-	color: #fff;
+	color: #313131;
 	text-shadow: none;
 }
 ::-moz-selection {
 	background: #444;
-	color: #fff;
+	color: #313131;
 	text-shadow: none;
 }
 ::selection {
 	background: #444;
-	color: #fff;
+	color: #313131;
 	text-shadow: none;
 }
 *::-webkit-input-placeholder {
@@ -120,7 +120,7 @@ h3{
 }
 
 .white-bg{
-	background: #ffffff;
+	background: #313131;
 }
 .gray-bg{
 	background: #f5f5f5;
@@ -161,7 +161,7 @@ h3{
 .overlay2::before{
 	position: absolute;
 	content: "";
-	background-color: #2C2C2C;
+	background-color: #FFF;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -180,7 +180,7 @@ h3{
 	height: 100%;
 	left: 0;
 	top: 0;
-	background: #2C2C2C;
+	background: #FFF;
 	opacity: .6;
 	content: '';
 	z-index: -1;
@@ -194,11 +194,11 @@ h3{
 .bradcam_overlay::before{
 	position: absolute;
 	content: "";
-	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#5db2ff+0,7db9e8+100&1+24,0+96 */
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#00CF48+0,7db9e8+100&1+24,0+96 */
 background: -moz-linear-gradient(left,  rgba(93,178,255,1) 0%, rgba(101,180,249,1) 24%, rgba(124,185,233,0) 96%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(left,  rgba(93,178,255,1) 0%,rgba(101,180,249,1) 24%,rgba(124,185,233,0) 96%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to right,  rgba(93,178,255,1) 0%,rgba(101,180,249,1) 24%,rgba(124,185,233,0) 96%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5db2ff', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00CF48', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 */
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -233,7 +233,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5db2ff', end
 		transition: all 0.3s ease 0s;
 		// visibility: hidden;
 		width: 50px;
-		color: #fff;
+		color: #313131;
 		background-color: transparent;
 		@include border-radius(50%);
 		left: 50px;
@@ -270,7 +270,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5db2ff', end
 				opacity: 1;
 				visibility: visible;
 				&:hover{
-					color: #fff;
+					color: #313131;
 					background: #28AE61;
 					border: 1px solid transparent ;
 				}

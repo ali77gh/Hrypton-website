@@ -1,5 +1,5 @@
 body{
-	background-color:#FFF;
+	background-color:#313131;
     font-family: "Lato", sans-serif;
     font-weight: 300;
 	font-size:16px;
@@ -102,7 +102,7 @@ section p {
 
 
 .left-sidebar {
-    background-color:#42B3FA;
+    background-color:#00CF48;
     float: left;
     min-height: 100%;
     position: fixed;
@@ -115,7 +115,7 @@ section p {
     padding-top: 70px;
 }
 .logo h1{
-    color: #fff;
+    color: #313131;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -126,7 +126,7 @@ section p {
 }
 
 .left-nav ul li a {
-    color: #fff;
+    color: #313131;
     display: block;
     padding: 10px 35px;
     -webkit-transition: all 0.3s ease-in 0s;
@@ -137,7 +137,7 @@ section p {
 }
 
 .left-nav ul li a:hover, .left-nav ul li .current {
-    background-color: #fff;
+    background-color: #313131;
     color: #000;
 }
 

@@ -1,5 +1,5 @@
 .boxed-btn {
-	background: #fff;
+	background: #313131;
 	color: #131313;
 	display: inline-block;
 	padding: 18px 44px;
@@ -16,7 +16,7 @@
     cursor: pointer;
     &:hover{
         background: #48B6FB;
-        color: #fff !important;
+        color: #313131 !important;
         border: 1px solid #48B6FB;
     }
     &:focus{
@@ -27,9 +27,9 @@
     }
 }
 .boxed-btn3 {
-        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0181f5+0,5db2ff+100 */
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#006D23+0,5db2ff+100 */
     background: #37EBED;
-	color: #fff;
+	color: #313131;
 	display: inline-block;
 	padding: 14px 27px;
 	font-family: $font1;
@@ -40,14 +40,14 @@
     @include border-radius(5px);
     // width: 180px;
     text-align: center;
-    color: #fff !important;
+    color: #313131 !important;
     text-transform: capitalize;
     @include transition(.5s);
     cursor: pointer;
     letter-spacing: 2px;
     &:hover{
         background: #4BA8FD;
-        color: #fff !important;
+        color: #313131 !important;
         // border: 1px solid #28AE61;
     }
     &:focus{
@@ -58,9 +58,9 @@
     }
 }
 .boxed-btn4 {
-        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0181f5+0,5db2ff+100 */
-    background: #0181F5;
-	color: #fff;
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#006D23+0,5db2ff+100 */
+    background: #006D23;
+	color: #313131;
 	display: inline-block;
 	padding: 14px 27px;
 	font-family: $font1;
@@ -71,14 +71,14 @@
     @include border-radius(5px);
     // width: 180px;
     text-align: center;
-    color: #fff !important;
+    color: #313131 !important;
     text-transform: capitalize;
     @include transition(.5s);
     cursor: pointer;
     letter-spacing: 2px;
     &:hover{
-        background: #0181F5;
-        color: #fff !important;
+        background: #006D23;
+        color: #313131 !important;
         // border: 1px solid #28AE61;
     }
     &:focus{
@@ -90,25 +90,25 @@
 }
 
 .boxed-btn3-white {
-	color: #fff;
+	color: #313131;
 	display: inline-block;
     padding: 13px 27px;
 	font-family: $font1;
 	font-size: 14px;
     font-weight: 400;
     border: 0;
-    border: 1px solid #fff;
+    border: 1px solid #313131;
     @include border-radius(5px);
     // width: 180px;
     text-align: center;
-    color: #fff !important;
+    color: #313131 !important;
     text-transform: capitalize;
     @include transition(.5s);
     cursor: pointer;
     letter-spacing: 2px;
     &:hover{
         background: #28AE61;
-        color: #fff !important;
+        color: #313131 !important;
         border: 1px solid transparent;
     }
     i{
@@ -140,7 +140,7 @@
     letter-spacing: 2px;
     &:hover{
         background: #48B6FB;
-        color: #fff !important;
+        color: #313131 !important;
         border: 1px solid transparent;
     }
     &:focus{
@@ -152,18 +152,18 @@
 }
 .boxed-btn2 {
 	background: transparent;
-	color: #fff;
+	color: #313131;
 	display: inline-block;
 	padding: 18px 24px;
 	font-family: $font1;
 	font-size: 14px;
     font-weight: 400;
     border: 0;
-    border: 1px solid #fff;
+    border: 1px solid #313131;
     letter-spacing: 2px;
     text-transform: uppercase;
     &:hover{
-        background: #fff;
+        background: #313131;
         color: #131313 !important;
     }
     &:focus{
@@ -197,14 +197,14 @@
 .prising_btn{
     display: inline-block;
     font-size: 14px;
-    color: #5DB2FF;
-    border: 1px solid #5DB2FF;
+    color: #00CF48;
+    border: 1px solid #00CF48;
     text-transform: capitalize;
     padding: 8px 28px;
     font-weight: 500;
     @include border-radius(5px);
     &:hover{
-        background: #5DB2FF;
-        color: #fff;
+        background: #00CF48;
+        color: #313131;
     }
 }

@@ -3,7 +3,7 @@
     padding-top: 120px;
     padding-bottom: 90px;
     .single_department{
-        background: #fff;
+        background: #313131;
         margin-bottom: 30px;
         @include box-shadow(0 6px 10px rgba(0, 0, 0, .04));
         .department_thumb{
@@ -26,7 +26,7 @@
                     line-height: 33px;
                     font-weight: 500;
                     &:hover{
-                        color: #5DB2FF;
+                        color: #00CF48;
                     }
                 }
             }
@@ -38,7 +38,7 @@
                 margin-bottom: 10px;
             }
             a.learn_more{
-                color: #5DB2FF;
+                color: #00CF48;
                 font-size: 16px;
                 &:hover{
                     text-decoration: underline;

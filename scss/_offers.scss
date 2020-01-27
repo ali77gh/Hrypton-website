@@ -97,11 +97,11 @@
   .video_area_inner{
     span{
       font-size: 14px;
-      color: #fff;
+      color: #313131;
     }
     h3{
       font-size: 46px;
-      color: #fff;
+      color: #313131;
       line-height: 56px;
       font-weight: 400;
       margin-top: 12px;
@@ -113,7 +113,7 @@
     a{
       width: 60px;
       height: 60px;
-      background: #fff;
+      background: #313131;
       line-height: 60px;
       font-size: 15px;
       color: #009DFF;
@@ -153,12 +153,12 @@
         width: 100%;
         height: 100%;
         content: "";
-        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,000000+100 */
-          background: #ffffff; /* Old browsers */
-          background: -moz-linear-gradient(top,  #ffffff 0%, #000000 77%); /* FF3.6-15 */
-          background: -webkit-linear-gradient(top,  #ffffff 0%,#000000 77%); /* Chrome10-25,Safari5.1-6 */
-          background: linear-gradient(to bottom,  #ffffff 0%,#000000 77%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#313131+0,000000+100 */
+          background: #313131; /* Old browsers */
+          background: -moz-linear-gradient(top,  #313131 0%, #000000 77%); /* FF3.6-15 */
+          background: -webkit-linear-gradient(top,  #313131 0%,#000000 77%); /* Chrome10-25,Safari5.1-6 */
+          background: linear-gradient(to bottom,  #313131 0%,#000000 77%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#313131', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
           z-index: 1;
           opacity: .5;
       }
@@ -186,7 +186,7 @@
       }
           span{
             font-size: 14px;
-            color: #FFFFFF;
+            color: #313131;
             margin-bottom: 9px;
             display: block;
             position: relative;
@@ -194,7 +194,7 @@
           }
           h3{
             font-size: 30px;
-            color: #fff;
+            color: #313131;
             position: relative;
             z-index: 8;
             @media #{$mobile_device} {
@@ -202,7 +202,7 @@
           }
           }
           a{
-            color: #fff;
+            color: #313131;
             text-transform: capitalize;
             font-weight: 600;
             position: relative;
@@ -280,7 +280,7 @@
     }
       a{
         background: #009DFF;
-        color: #fff;
+        color: #313131;
         padding: 12px 53px;
         border-radius: 30px;
         display: inline-block;
@@ -289,7 +289,7 @@
         &:hover{
           color: #009DFF;
           border: 1px solid #009DFF;
-          background: #fff;
+          background: #313131;
         }
       }
     }
@@ -336,7 +336,7 @@
       opacity: 0;
       visibility: hidden;
       a{
-        color: #fff;
+        color: #313131;
         position: absolute;
         left: 0;
         top: 50%;

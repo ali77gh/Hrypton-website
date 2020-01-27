@@ -1,7 +1,44 @@
-<svg id="https:_material.io_resources_icons_icon_group_work_style_outline" data-name="https://material.io/resources/icons/?icon=group_work&amp;style=outline" xmlns="http://www.w3.org/2000/svg" width="52.25" height="52.25" viewBox="0 0 52.25 52.25">
-  <path id="Path_47" data-name="Path 47" d="M0,0H52.25V52.25H0Z" fill="none"/>
-  <path id="Path_48" data-name="Path 48" d="M23.771,2A21.771,21.771,0,1,0,45.542,23.771,21.779,21.779,0,0,0,23.771,2Zm0,39.188A17.417,17.417,0,1,1,41.188,23.771,17.44,17.44,0,0,1,23.771,41.188Z" transform="translate(2.354 2.354)" fill="#fff"/>
-  <ellipse id="Ellipse_10" data-name="Ellipse 10" cx="4.342" cy="4.342" rx="4.342" ry="4.342" transform="translate(12.928 26.125)" fill="#fff"/>
-  <ellipse id="Ellipse_11" data-name="Ellipse 11" cx="4.962" cy="4.342" rx="4.962" ry="4.342" transform="translate(21.611 13.721)" fill="#fff"/>
-  <ellipse id="Ellipse_12" data-name="Ellipse 12" cx="4.342" cy="4.342" rx="4.342" ry="4.342" transform="translate(31.535 26.125)" fill="#fff"/>
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="52.25" height="52.25" >
+ <g>
+	<g>
+		<path d="M437.333,192h-32v-42.667C405.333,66.99,338.344,0,256,0S106.667,66.99,106.667,149.333V192h-32
+			C68.771,192,64,196.771,64,202.667v266.667C64,492.865,83.135,512,106.667,512h298.667C428.865,512,448,492.865,448,469.333
+			V202.667C448,196.771,443.229,192,437.333,192z M287.938,414.823c0.333,3.01-0.635,6.031-2.656,8.292
+			c-2.021,2.26-4.917,3.552-7.948,3.552h-42.667c-3.031,0-5.927-1.292-7.948-3.552c-2.021-2.26-2.99-5.281-2.656-8.292l6.729-60.51
+			c-10.927-7.948-17.458-20.521-17.458-34.313c0-23.531,19.135-42.667,42.667-42.667s42.667,19.135,42.667,42.667
+			c0,13.792-6.531,26.365-17.458,34.313L287.938,414.823z M341.333,192H170.667v-42.667C170.667,102.281,208.948,64,256,64
+			s85.333,38.281,85.333,85.333V192z"/>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
 </svg>
