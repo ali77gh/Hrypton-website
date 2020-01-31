@@ -62,10 +62,10 @@ a:focus {
 a:hover {
 	text-decoration: none;
   color: #6a7dfe;
-  color: -webkit-linear-gradient(left, #21d4fd, #b721ff);
-  color: -o-linear-gradient(left, #21d4fd, #b721ff);
-  color: -moz-linear-gradient(left, #21d4fd, #b721ff);
-  color: linear-gradient(left, #21d4fd, #b721ff);
+  color: -webkit-linear-gradient(left, #00CF48, #006D23);
+  color: -o-linear-gradient(left, #00CF48, #006D23);
+  color: -moz-linear-gradient(left, #00CF48, #006D23);
+  color: linear-gradient(left, #00CF48, #006D23);
 }
 
 /*---------------------------------------------*/
@@ -174,12 +174,12 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background: #f2f2f2;  
+  background: #00CF48;  
 }
 
 .wrap-login100 {
   width: 390px;
-  background: #fff;
+  background: #313131;
   border-radius: 10px;
   overflow: hidden;
   padding: 77px 55px 33px 55px;
@@ -203,7 +203,7 @@ iframe {
   display: block;
   font-family: Poppins-Bold;
   font-size: 30px;
-  color: #333333;
+  color: #E4E4E4;
   line-height: 1.2;
   text-align: center;
 }
@@ -224,7 +224,7 @@ iframe {
 .input100 {
   font-family: Poppins-Regular;
   font-size: 15px;
-  color: #555555;
+  color: #fff;
   line-height: 1.2;
 
   display: block;
@@ -260,10 +260,10 @@ iframe {
   transition: all 0.4s;
 
   background: #6a7dfe;
-  background: -webkit-linear-gradient(left, #21d4fd, #b721ff);
-  background: -o-linear-gradient(left, #21d4fd, #b721ff);
-  background: -moz-linear-gradient(left, #21d4fd, #b721ff);
-  background: linear-gradient(left, #21d4fd, #b721ff);
+  background: -webkit-linear-gradient(left, #00CF48, #006D23);
+  background: -o-linear-gradient(left, #00CF48, #006D23);
+  background: -moz-linear-gradient(left, #00CF48, #006D23);
+  background: linear-gradient(left, #00CF48, #006D23);
 }
 
 .focus-input100::after {
@@ -326,19 +326,19 @@ iframe {
 }
 
 .btn-show-pass:hover {
-  color: #6a7dfe;
-  color: -webkit-linear-gradient(left, #21d4fd, #b721ff);
-  color: -o-linear-gradient(left, #21d4fd, #b721ff);
-  color: -moz-linear-gradient(left, #21d4fd, #b721ff);
-  color: linear-gradient(left, #21d4fd, #b721ff);
+  color: #00CF48;
+  color: -webkit-linear-gradient(left, #00CF48, #006D23);
+  color: -o-linear-gradient(left, #00CF48, #006D23);
+  color: -moz-linear-gradient(left, #00CF48, #006D23);
+  color: linear-gradient(left, #00CF48, #006D23);
 }
 
 .btn-show-pass.active {
   color: #6a7dfe;
-  color: -webkit-linear-gradient(left, #21d4fd, #b721ff);
-  color: -o-linear-gradient(left, #21d4fd, #b721ff);
-  color: -moz-linear-gradient(left, #21d4fd, #b721ff);
-  color: linear-gradient(left, #21d4fd, #b721ff);
+  color: -webkit-linear-gradient(left, #00CF48, #006D23);
+  color: -o-linear-gradient(left, #00CF48, #006D23);
+  color: -moz-linear-gradient(left, #00CF48, #006D23);
+  color: linear-gradient(left, #00CF48, #006D23);
 }
 
 
@@ -372,10 +372,10 @@ iframe {
   width: 300%;
   height: 100%;
   background: #a64bf4;
-  background: -webkit-linear-gradient(right, #21d4fd, #b721ff, #21d4fd, #b721ff);
-  background: -o-linear-gradient(right, #21d4fd, #b721ff, #21d4fd, #b721ff);
-  background: -moz-linear-gradient(right, #21d4fd, #b721ff, #21d4fd, #b721ff);
-  background: linear-gradient(right, #21d4fd, #b721ff, #21d4fd, #b721ff);
+  background: -webkit-linear-gradient(right, #00CF48, #006D23, #00CF48, #006D23);
+  background: -o-linear-gradient(right, #00CF48, #006D23, #00CF48, #006D23);
+  background: -moz-linear-gradient(right, #00CF48, #006D23, #00CF48, #006D23);
+  background: linear-gradient(right, #00CF48, #006D23, #00CF48, #006D23);
   top: 0;
   left: -100%;
 
@@ -431,7 +431,7 @@ iframe {
   content: attr(data-validate);
   position: absolute;
   max-width: 70%;
-  background-color: #fff;
+  background-color: #313131;
   border: 1px solid #c80000;
   border-radius: 2px;
   padding: 4px 25px 4px 10px;
@@ -467,7 +467,7 @@ iframe {
 
   display: block;
   position: absolute;
-  background-color: #fff;
+  background-color: #313131;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
@@ -488,6 +488,3 @@ iframe {
     opacity: 1;
   }
 }
-
-
-
