@@ -325,10 +325,15 @@
         if (validate()) {
             // todo is guest
 
+            var guest = false
+            if($(".login100-guest").is(':checked'))
+                guest = true
+            
+
             $('.login100-form-bgbtn').hide()
             $('.login100-form-btn').text("loading...");
             
-            pasher.pash(masterPass.value, url.value, username.value, false).then((successMessage) => {
+            pasher.pash(masterPass.value, url.value, username.value, guest).then((successMessage) => {
 
                 $('.login100-form-bgbtn').show()
                 $('.login100-form-btn').text("generate");
@@ -336,6 +341,10 @@
             });
 
         }
+    });
+
+    $('.login100-guest').on('click', function () {
+        $('.login100-output').text("");//clear on text focus
     });
 
 
