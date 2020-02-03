@@ -23,7 +23,7 @@
     var validator = new class {
 
         minSize = 10
-        allowedSpecialChars = "//~!@#\$%^&*_-+=`|\\(){}[]:;\"'<>,.?/"
+        allowedSpecialChars = "//~!@#$%^&*_-+=`|\\(){}[]:;\"'<>,.?/"
         OK = "OK"
 
         isUpperCase = (string) => /^[A-Z]*$/.test(string)
@@ -183,7 +183,7 @@
        * @param input string
        * @return      string
        * */
-        standard(input) {
+        async standard(input) {
 
             var result = ""
             for (var i = 0; i <= 63; i += 2) {
@@ -192,9 +192,9 @@
 
             //if its not standard try one more hash
             //(to make sure output is standard password and website validator gonna accept it)
-            if (validator.password(result.substring(0, super.PASSWORD_MIN_SIZE)) != validator.OK) {
-                result = this.sha256(result)
-                result = this.standard(result)
+            if (validator.password(result.substring(0, this.PASSWORD_MIN_SIZE)) != validator.OK) {
+                result = await this.sha256(result)
+                result = await this.standard(result)
             }
 
             return result
@@ -261,7 +261,7 @@
             
 
             var pash = await this.slowIt(value)
-            pash = this.standard(pash)
+            pash = await this.standard(pash)
             pash = this.limitIt(pash)
 
 
@@ -324,9 +324,15 @@
 
         if (validate()) {
             // todo is guest
+
+            $('.login100-form-bgbtn').hide()
+            $('.login100-form-btn').text("loading...");
+            
             pasher.pash(masterPass.value, url.value, username.value, false).then((successMessage) => {
 
-                console.log("password: " + successMessage)
+                $('.login100-form-bgbtn').show()
+                $('.login100-form-btn').text("generate");
+                $('.login100-output').html("your password:</br>" + successMessage)
             });
 
         }
@@ -349,6 +355,7 @@
     $('.validate-form .input100').each(function () {
         $(this).focus(function () {
             hideValidate(this);
+            $('.login100-output').text("");//clear on text focus
         });
     });
     function hideValidate(input) {
