@@ -81,10 +81,25 @@
 
             if (username.indexOf(' ') != -1)
                 return "space is not allowed"
-            //todo
-
+            
             return this.OK
         }
+
+        howManyTimeChanged = function(howManyTimeChanged) {
+            
+
+            if (howManyTimeChanged == "") return "is empty"
+
+            if (howManyTimeChanged.indexOf(' ') != -1)
+                return "space is not allowed"
+            
+
+            if(isNaN(howManyTimeChanged))
+                return "enter number"
+            
+            return this.OK
+        }
+
     }();
 
     var pasher = new class {
@@ -250,11 +265,11 @@
          * result is standard password with lower case and upper case numbers and special chars
          * with dynamic size
          * */
-        async pash(masterPass, url, username, isGuest) {
+        async pash(masterPass, url, username, howManyTimeChanged) {
 
             var value = masterPass + url + username
 
-            if (isGuest) value += "whatever"
+            if (howManyTimeChanged != 0) value += howManyTimeChanged
 
             if (this.cache.get(value) != undefined)
                 return this.cache.get(value)
@@ -280,12 +295,14 @@
     var masterPass;
     var url;
     var username;
+    var howManyTimeChanged;
 
     function validate() {
 
         var masterPassErr = validator.password(masterPass.value)
         var urlErr = validator.url(url.value)
         var usernameErr = validator.username(username.value)
+        var howManyTimeChangedErr = validator.howManyTimeChanged(howManyTimeChanged.value)
 
         if (masterPassErr != validator.OK) {
             showError(masterPass.view, masterPassErr);
@@ -297,6 +314,10 @@
 
         if (usernameErr != validator.OK) {
             showError(username.view, usernameErr);
+        }
+
+        if (howManyTimeChangedErr != validator.OK) {
+            showError(howManyTimeChanged.view, howManyTimeChangedErr);
         }
 
         if (masterPassErr == validator.OK && urlErr == validator.OK && usernameErr == validator.OK)
@@ -322,22 +343,21 @@
             value: $(input[2]).val().trim()
         }
 
-        if (validate()) {
-            // todo is guest
+        howManyTimeChanged = {
+            view: input[3],
+            value: $(input[3]).val().trim()
+        }
 
-            var guest = false
-            if($(".login100-guest").is(':checked'))
-                guest = true
-            
+        if (validate()) {
 
             $('.login100-form-bgbtn').hide()
             $('.login100-form-btn').text("loading...");
             
-            pasher.pash(masterPass.value, url.value, username.value, guest).then((successMessage) => {
+            pasher.pash(masterPass.value, url.value, username.value, howManyTimeChanged.value).then((successMessage) => {
 
                 $('.login100-form-bgbtn').show()
                 $('.login100-form-btn').text("generate");
-                $('.login100-output').html("your password:</br>" + successMessage)
+                $('.login100-output').text("your password: " + successMessage)
             });
 
         }
